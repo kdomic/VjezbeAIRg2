@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <PreferenceCategory android:title="@string/user_settings">
+        <EditTextPreference android:summary="@string/user_email_summary" android:key="userMail" android:title="@string/user_email"/>
+        <CheckBoxPreference android:summary="@string/show_user_location_summary" android:title="@string/show_user_location" android:defaultValue="1" android:key="showUserLocation" android:selectable="true"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/poi_settings">
+        <ListPreference android:summary="@string/poi_source_summary" android:title="@string/poi_source" android:entries="@array/poiSourceEntries" android:entryValues="@array/poiSourceValues"/>
+    </PreferenceCategory>
+    
+</PreferenceScreen>
