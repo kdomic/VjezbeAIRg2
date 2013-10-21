@@ -12,7 +12,7 @@
     <string name="user_settings">User settings</string>
     <string name="poi_settings">POI settings</string>
     <string name="user_email">User email</string>
-    <string name="user_email_summary">Enter your email to recieve map information</string>
+    <string name="user_email_summary">Enter your email to receive map information</string>
     <string name="show_user_location">Show user location</string>
     <string name="show_user_location_summary">Summary if enabled, current user location will be shown on mp</string>
     <string name="poi_source">POI source</string>
