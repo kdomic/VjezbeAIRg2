@@ -31,7 +31,8 @@ public class ServiceAsyncTask extends AsyncTask<Integer, Void, List<PoiInfo>> {
 		String result = null;
 
 		HttpClient httpClient = new DefaultHttpClient();
-		HttpGet request = new HttpGet("http://arka.foi.hr/~kdomic/ws_"+groupId+".json");
+		//HttpGet request = new HttpGet("http://arka.foi.hr/~kdomic/ws_"+groupId+".json");
+		HttpGet request = new HttpGet("http://analizafoi.co.nf/pois.php?method=getPois&groupId="+groupId);
 
 		ResponseHandler<String> handler = new BasicResponseHandler();
 

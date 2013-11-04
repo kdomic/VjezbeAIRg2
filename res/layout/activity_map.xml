@@ -6,8 +6,9 @@
     
     <fragment
         	android:id="@+id/mapFragment"
-		    class="com.google.android.gms.maps.SupportMapFragment"
+		    class="hr.foi.air.g2.vjezbe.core.MySupportMapFragment"
 		    android:layout_width="match_parent"
 		    android:layout_height="match_parent"/>
+    <!-- class="com.google.android.gms.maps.SupportMapFragment" -->
 
 </LinearLayout>

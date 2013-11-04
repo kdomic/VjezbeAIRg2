@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+    <TextView 
+        android:id="@+id/lblName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/poi_name"
+        />
+    
+    <EditText
+        android:id="@+id/txtName"
+        android:inputType="textCapWords"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@+id/lblName"
+        android:layout_below="@+id/lblName"
+        android:layout_marginRight="15dp" 
+        />
+    
+    <TextView 
+        android:id="@+id/lblDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtName"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="15dp"
+        android:text="@string/poi_description"
+        />
+    
+    <EditText
+        android:id="@+id/txtDescription"
+        android:inputType="textCapSentences"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_alignLeft="@+id/lblDescription"
+        android:layout_below="@+id/lblDescription"
+        android:layout_marginRight="15dp" 
+        />
+    
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/txtDescription"
+        android:layout_alignLeft="@+id/txtDescription"
+        android:layout_marginRight="15dp"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:paddingBottom="20dp">
+        
+    	<Button
+    	    android:id="@+id/btnAdd"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/poi_add"
+    	    android:layout_width="110sp" />
+    	    
+        <Button
+    	    android:id="@+id/btnCancel"
+    	    android:layout_height="wrap_content"
+    	    android:text="@string/cancel"
+    	    android:layout_width="110sp" />
+    </LinearLayout>
+
+</RelativeLayout>

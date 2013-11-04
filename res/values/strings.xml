@@ -17,5 +17,11 @@
     <string name="show_user_location_summary">Summary if enabled, current user location will be shown on mp</string>
     <string name="poi_source">POI source</string>
     <string name="poi_source_summary">Select between available source of information</string>
+    
+    
+    <string name="poi_name">Name</string>
+    <string name="poi_description">Description</string>
+    <string name="poi_add">Add</string>
+    <string name="cancel">Cancel</string>
 
 </resources>
