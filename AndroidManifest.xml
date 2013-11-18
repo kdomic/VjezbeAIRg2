@@ -35,6 +35,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".MapActivity" />
+        <activity android:name=".DbActivity" />
 
         <activity android:name=".SettingsActivity" />
     </application>

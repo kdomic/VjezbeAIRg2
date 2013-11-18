@@ -6,6 +6,7 @@ public class PoiInfo {
 	private String name;
 	private String description;
 	private GeoPoint location;
+	private int id;
 
 	public String getName() {
 		return name;
@@ -17,6 +18,14 @@ public class PoiInfo {
 
 	public GeoPoint getLocation() {
 		return location;
+	}
+	public int getId()
+	{
+		return id;
+	}
+	public void setId(int id)
+	{
+		this.id = id;
 	}
 
 	public PoiInfo(String name, String description, LatLng location) {

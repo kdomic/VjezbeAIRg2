@@ -6,9 +6,12 @@
     <string name="hello_world">Hello world!</string>
     
     <string name="open_map">Open map</string>
+    <string name="open_db">Open db</string>
     
     <string name="optMapRefresh">Refresh Map</string>
     <string name="optMapSettings">Settings</string>
+    <string name="optLocalDara">Local data</string>
+    
     <string name="user_settings">User settings</string>
     <string name="poi_settings">POI settings</string>
     <string name="user_email">User email</string>
@@ -18,7 +21,7 @@
     <string name="poi_source">POI source</string>
     <string name="poi_source_summary">Select between available source of information</string>
     
-    
+    <string name="poi_id">ID</string>
     <string name="poi_name">Name</string>
     <string name="poi_description">Description</string>
     <string name="poi_add">Add</string>

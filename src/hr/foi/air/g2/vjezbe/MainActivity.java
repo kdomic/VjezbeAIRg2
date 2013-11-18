@@ -27,7 +27,18 @@ public class MainActivity extends Activity {
 				Intent i = new Intent(pc, MapActivity.class);
 				startActivity(i);
 			}
-		});        
+		});
+        
+    	Button btnOpenDb = (Button) findViewById(R.id.btnOpenDb);        
+    	btnOpenDb.setOnClickListener(new OnClickListener() {			
+			@Override
+			public void onClick(View v) {
+				// TODO Auto-generated method stub
+				Intent i = new Intent(pc, DbActivity.class);
+				startActivity(i);
+			}
+		});
+        
     }    
     
     @Override

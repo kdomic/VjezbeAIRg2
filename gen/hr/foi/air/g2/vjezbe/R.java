@@ -191,29 +191,38 @@ containing a value of this type.
         public static final int map_icon=0x7f02001d;
     }
     public static final class id {
-        public static final int RelativeLayout1=0x7f060008;
-        public static final int action_settings=0x7f06000f;
-        public static final int btnAdd=0x7f06000d;
-        public static final int btnCancel=0x7f06000e;
-        public static final int btnOpenMap=0x7f060006;
+        public static final int RelativeLayout1=0x7f06000b;
+        public static final int action_settings=0x7f060015;
+        public static final int btnAdd=0x7f060010;
+        public static final int btnCancel=0x7f060011;
+        public static final int btnOpenDb=0x7f060009;
+        public static final int btnOpenMap=0x7f060008;
+        public static final int header=0x7f060005;
         public static final int hybrid=0x7f060004;
-        public static final int lblDescription=0x7f06000b;
-        public static final int lblName=0x7f060009;
-        public static final int mapFragment=0x7f060007;
+        public static final int lblDescription=0x7f06000e;
+        public static final int lblName=0x7f06000c;
+        public static final int local_data=0x7f060006;
+        public static final int mapFragment=0x7f06000a;
         public static final int none=0x7f060000;
         public static final int normal=0x7f060001;
-        public static final int optMapRefresh=0x7f060010;
-        public static final int optMapSettings=0x7f060011;
+        public static final int optMapLocalData=0x7f060018;
+        public static final int optMapRefresh=0x7f060016;
+        public static final int optMapSettings=0x7f060017;
+        public static final int poi_desc_item=0x7f060014;
+        public static final int poi_id_item=0x7f060012;
+        public static final int poi_name_item=0x7f060013;
         public static final int satellite=0x7f060002;
         public static final int terrain=0x7f060003;
-        public static final int textView1=0x7f060005;
-        public static final int txtDescription=0x7f06000c;
-        public static final int txtName=0x7f06000a;
+        public static final int textView1=0x7f060007;
+        public static final int txtDescription=0x7f06000f;
+        public static final int txtName=0x7f06000d;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
-        public static final int activity_map=0x7f030001;
-        public static final int dialog_add_poi=0x7f030002;
+        public static final int acrivity_db=0x7f030000;
+        public static final int activity_main=0x7f030001;
+        public static final int activity_map=0x7f030002;
+        public static final int dialog_add_poi=0x7f030003;
+        public static final int item_local_data=0x7f030004;
     }
     public static final class menu {
         public static final int main=0x7f0b0000;
@@ -245,7 +254,7 @@ containing a value of this type.
         [CHAR LIMIT=70] 
          */
         public static final int auth_client_using_bad_version_title=0x7f070013;
-        public static final int cancel=0x7f07002a;
+        public static final int cancel=0x7f07002d;
         /**  Button in confirmation dialog to enable Google Play services.  Clicking it
         will direct user to application settings of Google Play services where they
         can enable it [CHAR LIMIT=40] 
@@ -314,20 +323,23 @@ containing a value of this type.
          */
         public static final int common_signin_button_text_long=0x7f070012;
         public static final int hello_world=0x7f07001b;
+        public static final int open_db=0x7f07001d;
         public static final int open_map=0x7f07001c;
-        public static final int optMapRefresh=0x7f07001d;
-        public static final int optMapSettings=0x7f07001e;
-        public static final int poi_add=0x7f070029;
-        public static final int poi_description=0x7f070028;
-        public static final int poi_name=0x7f070027;
-        public static final int poi_settings=0x7f070020;
-        public static final int poi_source=0x7f070025;
-        public static final int poi_source_summary=0x7f070026;
-        public static final int show_user_location=0x7f070023;
-        public static final int show_user_location_summary=0x7f070024;
-        public static final int user_email=0x7f070021;
-        public static final int user_email_summary=0x7f070022;
-        public static final int user_settings=0x7f07001f;
+        public static final int optLocalDara=0x7f070020;
+        public static final int optMapRefresh=0x7f07001e;
+        public static final int optMapSettings=0x7f07001f;
+        public static final int poi_add=0x7f07002c;
+        public static final int poi_description=0x7f07002b;
+        public static final int poi_id=0x7f070029;
+        public static final int poi_name=0x7f07002a;
+        public static final int poi_settings=0x7f070022;
+        public static final int poi_source=0x7f070027;
+        public static final int poi_source_summary=0x7f070028;
+        public static final int show_user_location=0x7f070025;
+        public static final int show_user_location_summary=0x7f070026;
+        public static final int user_email=0x7f070023;
+        public static final int user_email_summary=0x7f070024;
+        public static final int user_settings=0x7f070021;
     }
     public static final class style {
         /** 

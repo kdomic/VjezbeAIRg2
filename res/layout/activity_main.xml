@@ -22,4 +22,12 @@
         android:layout_centerVertical="true"
         android:text="@string/open_map" />
 
+    <Button
+        android:id="@+id/btnOpenDb"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btnOpenMap"
+        android:layout_centerHorizontal="true"
+        android:text="@string/open_db" />
+
 </RelativeLayout>

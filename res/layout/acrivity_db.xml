@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:id="@+id/header"
+        android:background="#ff347c12"
+        android:layout_height="50dp"
+        android:layout_width="match_parent">
+        
+        <TextView 
+            android:text="@string/poi_id"
+            android:layout_height="match_parent"
+            android:layout_width="33dp"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:padding="5sp"/>
+        <TextView 
+            android:text="@string/poi_name"
+            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:padding="5sp"/>
+        <TextView 
+            android:text="@string/poi_description"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:gravity="center_vertical"
+            android:textStyle="bold"
+            android:padding="5sp"/>
+    </LinearLayout>
+    
+    <ListView 
+        android:id="@+id/local_data"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"/>
+    
+    
+</LinearLayout>
