@@ -26,5 +26,11 @@
     <string name="poi_description">Description</string>
     <string name="poi_add">Add</string>
     <string name="cancel">Cancel</string>
+    
+    <string name="db_context_menu_header">Choose action</string>
+    <string name="poi_update">Update</string>
+    <string name="poi_delete">Delete</string>
+    
+    
 
 </resources>

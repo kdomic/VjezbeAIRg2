@@ -84,5 +84,23 @@ public class PoisAdapter {
 		close();
 		return pois;
 	}
+	
+	public boolean deletePoi(int id){
+		openToWrite();
+		boolean r = db.delete(TABLE, KEY + "=" + id, null) > 0;		
+		close();
+		return r;
+	}
+	
+	public boolean updatePoi(int id, String newName, String newDesc){
+		ContentValues values = new ContentValues();
+		values.put("name", newName);
+		values.put("description", newDesc);
+		
+		openToWrite();
+		boolean r = db.update(TABLE, values, KEY + "=" + id, null) > 0;
+		close();
+		return r;
+	}
 
 }
